@@ -331,7 +331,7 @@ function _prepare!(solution_i; for_path::Bool)
     end
 
     for j=1:p
-        idx_missing = ismissing.(solution_i["dim$j"])
+        idx_missing = ismissing.(solution_i[!, "dim$j"])
         #trunc = findlast(.~idx_missing)
 
         lambda_obs = solution_i[.~idx_missing, "lambda"]
