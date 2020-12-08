@@ -14,5 +14,5 @@ MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-DataFrames = "0.21.8"
-Gaston = "1.0.4"
+DataFrames <= "0.21.8"
+Gaston <= "1.0.4"
