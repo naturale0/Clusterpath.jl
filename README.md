@@ -5,7 +5,7 @@ Julia implementation of $\ell_1$ Clusterpath, described in the paper[^1].
 ## installation
 ```julia
 import Pkg
-Pkg.add(url="https://github.com/naturale0/Clusterpath.jl")
+Pkg.add("Clusterpath")
 ```
 
 ## Quick Start
